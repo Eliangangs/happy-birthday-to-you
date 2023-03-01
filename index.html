@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/global-style.css">
+    <link rel="stylesheet" href="./css/adobtive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header __container">
+            <p class="small_text">02.03.2023</p>
+        </header>
+        <main class="page">
+            <h1 class="text_color center title">
+                <p>Вітаю з</p>
+                <p>Днем Народженням</p>
+            </h1>
+            <p class="text center">Привіт, вітаю тебе з днем народженням та надіюсь ти цей день проведеш лише з посмішкою на
+                обличчі і в любій ситуації ти
+                посміхався та був щасливим. Ми з тобою вже прожили цілу вічність а саме :
+            </p>
+            <div class="textBlock data" id="timer"></div>
+            <h2 class="text_color subtitle center">Бажаю тобі</h2>
+            <div class="boxes">
+                <ul class="__container">
+                    <li class="img1" id="img1" onclick="replaceBlocks1()"><img src="./img/present.png" alt=""></li>
+                    <li class="img2" id="img2" onclick="replaceBlocks2()"><img src="./img/present.png" alt=""></li>
+                    <li class="img3" id="img3" onclick="replaceBlocks3()"><img src="./img/present.png" alt=""></li>
+                    <li class="img4" id="img4" onclick="replaceBlocks4()"><img src="./img/present.png" alt=""></li>
+                    <li class="img5" id="img5" onclick="replaceBlocks5()"><img src="./img/present.png" alt=""></li>
+                    <li class="img6" id="img6" onclick="replaceBlocks6()"><img src="./img/present.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="boxes_open">
+                <ul class="__container">
+                    <li id="box1" style="opacity: 0;" class="box1 opened_present">
+                        <img src="./img/money.svg" alt="">
+                        <p>грошей</p>
+                    </li>
+                    <li id="box2" style="opacity: 0;" class="box2 opened_present">
+                        <img src="./img/heart.svg" alt="">
+                        <p>здоров’я</p>
+                    </li>
+                    <li id="box3" style="opacity: 0;" class="box3 opened_present">
+                        <img src="./img/car.svg" alt="">
+                        <p>бібіку</p>
+                    </li>
+                    <li id="box4" style="opacity: 0;" class="box4 opened_present">
+                        <img src="./img/friends.svg" alt="">
+                        <p>друзів</p>
+                    </li>
+                    <li id="box5" style="opacity: 0;" class="box5 opened_present">
+                        <img src="./img/love.svg" alt="">
+                        <p>кохання</p>
+                    </li>
+                    <li id="box6" style="opacity: 0;" class="box6 opened_present">
+                        <img src="./img/lucky.svg" alt="">
+                        <p>удачі</p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="right small_text __container">з любов’ю Еліна</p>
+        </footer>
+        <script src="./js/script.js"></script>
+    </div>
+</body>
+</html>
